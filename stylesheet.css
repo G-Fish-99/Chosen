@@ -42,6 +42,7 @@ body {
   box-sizing: border-box;
 }
 
+/* 画像代替エリア */
 .image-real {
   width: 100%;           /* コンテナの幅に合わせる */
   height: auto;          /* 縦横比を保つ */
