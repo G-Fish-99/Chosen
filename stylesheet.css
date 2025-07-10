@@ -42,6 +42,17 @@ body {
   box-sizing: border-box;
 }
 
+.image-real {
+  width: 100%;           /* コンテナの幅に合わせる */
+  height: auto;          /* 縦横比を保つ */
+  max-height: 200px;     /* 必要に応じて高さ制限 */
+  object-fit: contain;   /* 縦横比を保ちながら中身を調整 */
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* リンク */
 .link {
   color: #00bfff;
