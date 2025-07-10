@@ -1,0 +1,57 @@
+/* 全体背景とリセット */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* コンテナボックス */
+.container {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  max-width: 90%;
+  width: 300px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* メッセージテキスト */
+.message {
+  color: red;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* 画像代替エリア */
+.image-placeholder {
+  background-color: #3478f6;
+  color: white;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* リンク */
+.link {
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* モバイル対応強化（任意） */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
