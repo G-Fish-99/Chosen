@@ -44,7 +44,7 @@ body {
 
 /* 画像代替エリア */
 .image-real {
-  width: 50%;           /* コンテナの幅に合わせる */
+  width: 100%;           /* コンテナの幅に合わせる */
   height: auto;          /* 縦横比を保つ */
   max-height: 200px;     /* 必要に応じて高さ制限 */
   object-fit: contain;   /* 縦横比を保ちながら中身を調整 */
